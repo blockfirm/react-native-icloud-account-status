@@ -1,0 +1,25 @@
+{
+  "name": "react-native-icloud-account-status",
+  "version": "1.0.0",
+  "description": "React Native module to determine whether the current user’s iCloud account can be accessed.",
+  "author": "Timothy Engqvist Johansson <timothy@blockfirm.se>",
+  "website": "https://github.com/blockfirm/react-native-icloud-account-status",
+  "copyright": "© 2018 Blockfirm AB",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blockfirm/react-native-icloud-account-status.git"
+  },
+  "bugs": "https://github.com/blockfirm/react-native-icloud-account-status/issues",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "icloud"
+  ],
+  "peerDependencies": {
+    "react-native": "^0.41.2"
+  }
+}
