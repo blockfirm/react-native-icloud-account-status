@@ -39,6 +39,16 @@ RCT_REMAP_METHOD(getStatus,
     }];
 }
 
++ (BOOL)requiresMainQueueSetup
+{
+    return YES;
+}
+
+- (dispatch_queue_t)methodQueue
+{
+    return dispatch_get_main_queue();
+}
+
 - (NSDictionary *)constantsToExport
 {
     return @{ @"STATUS_COULD_NOT_DETERMINE" : STATUS_COULD_NOT_DETERMINE,
