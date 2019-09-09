@@ -28,7 +28,8 @@ React Native module to determine whether the current user’s iCloud account can
 ### Mostly automatic installation
 
 1. `$ npm install react-native-icloud-account-status --save`
-2. `$ react-native link react-native-icloud-account-status`
+2. **React Native 0.60+**: `$ cd ios && pod install`  
+   **React Native <0.60**: `$ react-native link react-native-icloud-account-status`
 
 ### Manual installation
 
