@@ -83,7 +83,7 @@ For more information about each status, see [`CKAccountStatus`](https://develope
 
 ## License
 
-Copyright (c) 2019 Blockfirm AB
+Copyright (c) 2020 Blockfirm AB
 
 This project is licensed under the MIT License.
 See [LICENSE](LICENSE) for full license text.
